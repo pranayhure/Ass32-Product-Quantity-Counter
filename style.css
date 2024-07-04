@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart {
+    width: 25%;
+    height: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 5vw;
+    padding: 2vw;
+    border-radius: 5px;
+    background-color:#DFF5FF;
+    box-shadow: 3px 5px 3px 3px #2F3645;
+}
+
+#productImg {
+    width: 100px;
+    margin: 2vw 2vw;
+}
+
+.inc-dec {
+    padding: 0.7vw 0.5vw;
+}
+
+.Icons {
+    width: 8%;
+}
+
+.countTxt {
+    font-size: 2.5vw;
+    margin: 3vw;
+}
+
+button {
+    padding: 0.7vw 1.4vw;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 3vw;
+    background-color: #DCA47C;
+    
+}

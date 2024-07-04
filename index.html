@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Quantity Counter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="cart">
+        <img src="toy.webp" alt="toy image" id="productImg" />
+        <!-- <span class="productName">Toy</span> -->
+        <div class="inc-dec">
+            <img src="plus.png" alt="plus" class="Icons" onclick="ChangeNumber('Add')"/>
+            <span class="countTxt" id="numberTxt">1</span>
+            <img src="minus.png" alt="minus" class="Icons" onclick="ChangeNumber('Dec')" />
+        </div>
+        <button>Buy Product</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
